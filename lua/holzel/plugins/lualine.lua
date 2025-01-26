@@ -111,9 +111,9 @@ ins_left({
 })
 
 ins_left({
-	-- filesize component
-	"filesize",
-	cond = conditions.buffer_not_empty,
+	"branch",
+	icon = "",
+	color = { fg = colors.cyan, gui = "bold" },
 })
 
 ins_left({
@@ -182,9 +182,9 @@ ins_right({
 })
 
 ins_right({
-	"branch",
-	icon = "",
-	color = { fg = colors.violet, gui = "bold" },
+	-- filesize component
+	"filesize",
+	cond = conditions.buffer_not_empty,
 })
 
 ins_right({
