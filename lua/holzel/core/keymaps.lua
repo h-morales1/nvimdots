@@ -40,3 +40,6 @@ keymap.set("n", "<leader>*", "<cmd>Telescope live_grep<cr>") -- find string in c
 keymap.set("n", "<leader>fc", "<cmd>Telescope grep_string<cr>") -- find string under cursor in current working directory
 keymap.set("n", "<leader>fb", "<cmd>Telescope buffers<cr>") -- list open buffers in current neovim instance
 keymap.set("n", "<leader>fh", "<cmd>Telescope help_tags<cr>") -- list available help tags
+
+-- floating terminal
+keymap.set({ "n", "t" }, "<leader>tt", "<cmd>Flowy<cr>")
