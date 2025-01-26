@@ -20,3 +20,26 @@
 
 ![image](./screenshots/ex1.png)
 ![image](./screenshots/ex3.png)
+
+# Steps to install:
+
+- install neovim
+- font that supports icons
+- lsp packages(Arch required / don't remember about Mac)
+-
+
+```bash
+mkdir ~/.config/nvim/
+```
+
+-
+
+```bash
+cd ~/.config/nvim/
+```
+
+-
+
+```bash
+git clone git@github.com:h-morales1/nvimdots.git .
+```
