@@ -15,3 +15,8 @@
 # Open floating terminal: SPACE + tt
 
 ![image](./screenshots/ex2.png)
+
+# Theme overview:
+
+![image](./screenshots/ex1.png)
+![image](./screenshots/ex3.png)
